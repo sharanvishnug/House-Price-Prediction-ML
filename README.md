@@ -9,7 +9,11 @@
 An end-to-end Machine Learning project that predicts house prices using the **King County House Sales Dataset**. The project covers the complete ML lifecycle—from data preprocessing and feature engineering to model training, evaluation, explainability with SHAP, and deployment through an interactive Streamlit dashboard.
 
 ---
+# 🏠 House Price Prediction using Machine Learning
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://house-price-prediction-ml-165.streamlit.app)
+
+---
 # 📌 Project Overview
 
 This project aims to accurately predict house prices based on property characteristics such as:
@@ -318,6 +322,7 @@ Computer Science Engineering Student
 
 Machine Learning • Data Science • Python • Cloud Computing
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://house-price-prediction-ml-165.streamlit.app)
 ---
 
 # ⭐ Support
