@@ -8,7 +8,6 @@ house prices from user-provided features.
 import joblib
 import pandas as pd
 from pathlib import Path
-import joblib
 
 # Project root directory
 
@@ -17,6 +16,11 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 MODEL_DIR = PROJECT_ROOT / "models" / "trained_models"
 
 MODEL_PATH = MODEL_DIR / "production_model.pkl"
+
+if not MODEL_PATH.exists():
+    raise FileNotFoundError(
+        f"Model not found: {MODEL_PATH}"
+    )
 
 model = joblib.load(MODEL_PATH)
 

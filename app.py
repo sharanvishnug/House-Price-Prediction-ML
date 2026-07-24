@@ -77,5 +77,5 @@ Use the sidebar to navigate between:
 st.markdown("---")
 
 st.caption(
-    "Developed using Streamlit, XGBoost, SHAP, Scikit-learn and Python."
+    "Developed by Sharan G • Streamlit • XGBoost • SHAP • Scikit-learn"
 )
